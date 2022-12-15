@@ -1,14 +1,14 @@
-# [Bronze IV] 사파리월드 - 2420 
+# [Bronze V] 사파리월드 - 2420 
 
 [문제 링크](https://www.acmicpc.net/problem/2420) 
 
 ### 성능 요약
 
-메모리: 30840 KB, 시간: 68 ms
+메모리: 30616 KB, 시간: 36 ms
 
 ### 분류
 
-사칙연산(arithmetic), 구현(implementation), 수학(math)
+구현(implementation), 사칙연산(arithmetic), 수학(math)
 
 ### 문제 설명
 

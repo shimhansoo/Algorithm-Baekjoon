@@ -1,2 +1,3 @@
-a,b = map(int,input().split())
-print(abs(b-a))
+A, B= map(int,input().split())
+
+print(abs(B - A))
