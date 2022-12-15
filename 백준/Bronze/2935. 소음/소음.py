@@ -1,5 +1,8 @@
-a = int(input())
-b = str(input())
-c = int(input())
-if(b == "+") : print(a+c)
-elif(b== "*") : print(a*c)
+A = int(input())
+B = str(input())
+C = int(input())
+
+if(B == "+") :
+    print(A + C)
+elif(B== "*") :
+    print(A * C)
