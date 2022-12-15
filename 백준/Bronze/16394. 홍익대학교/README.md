@@ -68,8 +68,7 @@
 		<li>입력
 		<ul>
 			<li>Scanner 사용</li>
-			<li>Scanner sc = new Scanner(System.in);<br>
-			정수: sc.nextInt(); 실수: sc.nextDouble(); 문자열: sc.nextLine(); 또는 sc.next();</li>
+			<li>Scanner sc = new Scanner(System.in); 			정수: sc.nextInt(); 실수: sc.nextDouble(); 문자열: sc.nextLine(); 또는 sc.next();</li>
 		</ul>
 		</li>
 		<li>출력
@@ -84,7 +83,7 @@
 
 ### 입력 
 
- <p>입력으로 첫 줄에 특정 년도를 알리는 정수 N이 주어진다. 정수 N은 1,946 부터 1,000,000 사이의 값이다. (1,946 ≤  N ≤  1,000,000)</p>
+ <p>입력으로 첫 줄에 특정 년도를 알리는 정수 N이 주어진다. 정수 N은 1,946 부터 1,000,000 사이의 값이다. (1,946 ≤ N ≤ 1,000,000)</p>
 
 ### 출력 
 
