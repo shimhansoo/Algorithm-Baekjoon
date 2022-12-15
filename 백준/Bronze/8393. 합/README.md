@@ -1,4 +1,4 @@
-# [Bronze III] 합 - 8393 
+# [Bronze V] 합 - 8393 
 
 [문제 링크](https://www.acmicpc.net/problem/8393) 
 
