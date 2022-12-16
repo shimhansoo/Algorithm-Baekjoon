@@ -4,11 +4,11 @@
 
 ### 성능 요약
 
-메모리: 30840 KB, 시간: 68 ms
+메모리: 30616 KB, 시간: 36 ms
 
 ### 분류
 
-구현(implementation)
+기하학(geometry), 구현(implementation)
 
 ### 문제 설명
 

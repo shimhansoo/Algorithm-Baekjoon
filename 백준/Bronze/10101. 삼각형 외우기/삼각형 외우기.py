@@ -1,21 +1,17 @@
 import sys
 
-input =__import__('sys').stdin.readline
+input = __import__('sys').stdin.readline
 
-a = int(input())
-b = int(input())
-c = int(input())
+A = int(input())
+B = int(input())
+C = int(input())
 
-if a + b + c == 180 :
-    if(a ==b and b == c) :
-        print("Equilateral")
-    elif( a != b and b != c and c != a) :
+if A == 60 and B == 60 and C == 60 :
+    print("Equilateral")
+elif (A + B + C) == 180 :
+    if(A == B or B == C or C == A) :
+        print("Isosceles") 
+    else :
         print("Scalene")
-    elif( a==b and b != c) :
-        print("Isosceles")
-    elif( c==b and b != a) :
-        print("Isosceles")
-    elif( a==c and b != c) :
-        print("Isosceles")
-elif a + b + c != 180 :
+else :
     print("Error")
