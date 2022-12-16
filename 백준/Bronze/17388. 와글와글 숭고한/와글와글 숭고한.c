@@ -1,3 +1,4 @@
+
 int main()
 {
     int S,K,H;
