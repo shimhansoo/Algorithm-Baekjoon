@@ -1,10 +1,12 @@
 import sys
 
-input =__import__('sys').stdin.readline
+input = __import__('sys').stdin.readline
 
 a = int(input())
-sum = int(0)
+
+plug = 1
+
 for i in range(a) :
-    b = int(input())
-    sum += b
-print(sum - i)
+    x = int(input())
+    plug += (x - 1)
+print(plug)
