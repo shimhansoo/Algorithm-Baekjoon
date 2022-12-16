@@ -1,15 +1,17 @@
 import sys
 
-input =__import__('sys').stdin.readline
+input = __import__('sys').stdin.readline
 
-a = int(input())
-b = int(input())
+X = int(input())
+Y = int(input())
 
-if a > 0 and b > 0 :
-    print(1)
-elif a > 0 and b < 0 :
-    print(4)
-elif a < 0 and b > 0 :
-    print(2)
-elif a < 0 and b < 0 :
-    print(3)
+if X > 0 :
+    if( Y > 0 ) :
+        print("1")
+    elif ( Y < 0) :
+        print("4")
+elif X < 0 :
+    if( Y > 0 ) :
+        print("2")
+    elif ( Y < 0) :
+        print("3")
