@@ -1,18 +1,19 @@
 import sys
 
-input =__import__('sys').stdin.readline
+input = __import__('sys').stdin.readline
 
 a = int(input())
+cute = 0
 
-cute = int(0)
-notCute = int(0)
 for i in range(a) :
-    b = int(input())
-    if b == 0 :
-        notCute += 1
-    elif b == 1 :
+    x = int(input())
+    if(x == 1) :
         cute += 1
-if cute > notCute :
-    print("Junhee is cute!") 
-elif cute < notCute :
+    elif(x == 0) :
+        cute -= 1
+if cute > 0 :
+    print("Junhee is cute!")
+elif cute < 0 :
     print("Junhee is not cute!")
+
+    
